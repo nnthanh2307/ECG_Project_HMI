@@ -18,7 +18,7 @@ Item {
             height: 100
             width: buttonHeight
 
-            contentItem: Item {
+            background: Item {
                 Image {
                     visible: selected === 3
                     source: "qrc:///images/btn-system-on.png"
