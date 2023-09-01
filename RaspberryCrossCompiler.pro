@@ -19,6 +19,6 @@ QML_IMPORT_PATH =
 QML_DESIGNER_IMPORT_PATH =
 
 # Default rules for deployment.
-qnx: target.path = /home/pi/
-else: unix:!android: target.path = /home/pi/
-!isEmpty(target.path): INSTALLS += target
+#qnx: target.path = /home/pi/
+#else: unix:!android: target.path = /home/pi/
+#!isEmpty(target.path): INSTALLS += target
